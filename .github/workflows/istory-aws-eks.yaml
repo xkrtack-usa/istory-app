@@ -126,6 +126,6 @@ jobs:
           git config --global user.name 'coffeelover123'
           git config --global user.email 'xkrtack11@naver.com'
           git commit -am "Update image tag to ${{ env.DOCKER_TAG }}"
-          git remote set-url origin https://${{ secrets.PAT }}@github.com/dangtong-s-inc/istory-service.git
+          git remote set-url origin https://${{ secrets.PAT }}@github.com/xkrtack-usa/istory-app.git
           
           git push origin main
